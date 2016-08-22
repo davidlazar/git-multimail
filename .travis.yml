@@ -8,6 +8,8 @@ python:
   - "3.4"
   - "3.5"
   - "nightly"
+  - "pypy"
+  - "pypy3"
 install:
   - pip install pep8 pyflakes
   # latest version seems broken with Python 2.6, no version seem to work with 3.2
